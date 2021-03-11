@@ -39,6 +39,7 @@ print(student["weight"])
 '''
 
 
+
 # Exercise 1:
 #for loop
 '''
@@ -123,7 +124,7 @@ Useful Time functions:
 2. time.sleep(NUMBER)
    - Suspends (delays) execution/running of the current thread for the given number of seconds
     
-'''
+
 import time
 print("hello")
 print(time.time())
@@ -131,3 +132,60 @@ print(time.time())
 for x in range(10):
   print(str(x) + " seconds has passed")
   time.sleep(1)
+'''
+
+#for y in range(5,18,3):
+  #print(y)
+
+a = 3
+#print(a * 10)
+
+# Exercise 1:
+#for loop
+'''
+*
+* *
+* * *
+* * * *
+* * * * *
+'''
+
+#for t in range(5):
+ # print("* " * (t+1))
+
+  ## Exercize 2:
+'''
+* * * * *
+* * * *
+* * *
+* *
+*
+'''
+
+#for t in range(5):
+ # print("* " * (5-t))
+
+  ## Exercise 3:
+'''
+                *
+            *   *
+        *   *   *
+    *   *   *   *
+*   *   *   *   *
+'''
+
+#for t in range(5):
+#  print("   " * (4-t) + "*  " * (t+1))
+
+print("hello")
+## Exercise 4:
+'''
+*   *   *   *   *
+    *   *   *   *
+        *   *   *
+            *   *
+                *
+'''
+
+for t in range(5):
+  print("   " * (t) + "*  " * (5-t))
